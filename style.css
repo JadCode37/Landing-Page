@@ -169,5 +169,39 @@ font-weight: bold;
 text-align: right;
 }
 
+.bottom-container{
+    display:flex;
+    justify-content: center;
+   
+}
 
+.blue-container{
+    display:flex;
+    background-color:#3882F6 ;
+    margin:40px;
+    padding: 40px;
+    align-items:center;
+    width: 1500px;
+    justify-content: space-between;
+    border-radius:8px;
+}
+
+
+
+.blue-container .text h1 ,.blue-container .text p {
+    color:white;
+}
+
+
+.blue-container .button button{
+ background-color:#3882F6 ;
+ color:white;
+ border-color: white;
+ padding :8px 10px;
+ font-size:16px;
+ font-weight:bold;
+ border-radius:8px;
+ cursor: pointer;
+ width: 150px;
+}
 
